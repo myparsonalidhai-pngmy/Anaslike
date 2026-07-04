@@ -133,7 +133,7 @@ async def send_like(encrypted_uid, token, url):
             'Authorization': f"Bearer {token}",
             'Content-Type': "application/x-www-form-urlencoded",
             'X-GA': "v1 1",
-            'ReleaseVersion': "OB53"
+            'ReleaseVersion': "OB54"
         }
         
         async with aiohttp.ClientSession() as session:

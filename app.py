@@ -246,7 +246,7 @@ def get_player_info(encrypted_uid, server_name, token):
         'Authorization': f"Bearer {token}",
         'Content-Type': "application/x-www-form-urlencoded",
         'X-GA': "v1 1",
-        'ReleaseVersion': "OB53"
+        'ReleaseVersion': "OB54"
     }
 
     try:
